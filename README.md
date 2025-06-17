@@ -36,7 +36,7 @@ Getting started with HLP-Stack is straightforward:
 1.  **Clone the repository:**
 
     ```bash
-    git clone [https://github.com/college-of-pharmacy-gachon-university/HLP-Stack.git](https://github.com/college-of-pharmacy-gachon-university/HLP-Stack.git)
+    git clone https://github.com/college-of-pharmacy-gachon-university/HLP_Stack.git
     cd HLP-Stack
     ```
 
