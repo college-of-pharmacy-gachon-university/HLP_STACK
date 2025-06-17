@@ -1,0 +1,14 @@
+Functional Group,Max HOMO-LUMO Gap,Min HOMO-LUMO Gap,diff. Max-Min Gap,No. of Molecules
+-OH,3.387,-2.44,5.827,36
+"-NH2, -NHR, -NR2",1.201,-2.44,3.641,15
+C=O,1.303,-0.894,2.197,17
+-COOH,,,,
+-O-,4.229,-2.386,6.615,76
+C=C,5.682,-2.44,8.122,50
+C≡C,,,,
+"-F, -Cl, -Br, -I",,,,
+-NO2,,,,
+-S-,,,,
+-CHO,,,,
+-CnHm,5.682,-2.44,8.122,202
+Total,,,,396
