@@ -1,6 +1,7 @@
 # Predicting Electronic Properties of Molecules
 
 ---
+![HLP-Stack Architecture](figures/Main_Architecture.png)
 
 ### A Stacking Ensemble Model for HOMO and LUMO Energy Estimation
 
@@ -12,8 +13,6 @@ Welcome to **HLP-Stack (HOMO-LUMO Predictor via Stacking)**, a cutting-edge stac
 * **Intelligent Feature Selection:** Employs the **SelectKBest** algorithm alongside **mutual information regression** to pinpoint the most influential molecular descriptors.
 * **Interpretability with SHAP:** Utilizes **SHAP Tree Explainer** to reveal the key features driving HOMO and LUMO energy predictions, offering transparent insights into molecular contributions.
 * **HOMO-LUMO Gap Analysis:** Provides in-depth analysis demonstrating how specific molecular frameworks and functional groups impact critical electronic properties.
-
-![HLP-Stack Architecture](/media/omid/HDD2/Manuscript/Word_format/Figures/Main_Architecture.png)
 
 ---
 
