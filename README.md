@@ -1,49 +1,56 @@
-# Predicting Electronic Properties of Molecules  
+# Predicting Electronic Properties of Molecules
+
+---
+
 ### A Stacking Ensemble Model for HOMO and LUMO Energy Estimation
 
-In this study, we developed a stacking ensemble machine learning regressor named **HLP-Stack (HOMO-LUMO Predictor via stacking)** to predict HOMO and LUMO energy values using molecular descriptors from the QM9 dataset.
+Welcome to **HLP-Stack (HOMO-LUMO Predictor via Stacking)**, a cutting-edge stacking ensemble machine learning regressor designed to predict HOMO and LUMO energy values. Our model leverages diverse molecular descriptors from the QM9 dataset to achieve superior predictive accuracy.
 
-![](/media/omid/HDD2/Manuscript/Word_format/Figures/Main_Architecture.png)
+**Key Features:**
 
-We achieved superior predictive accuracy by combining:
-- **2D molecular properties** from RDKit
-- **3D quantum mechanical descriptors** from DFT calculations
+* **Hybrid Descriptor Integration:** Combines **2D molecular properties** from RDKit with **3D quantum mechanical descriptors** derived from DFT calculations for comprehensive molecular representation.
+* **Intelligent Feature Selection:** Employs the **SelectKBest** algorithm alongside **mutual information regression** to pinpoint the most influential molecular descriptors.
+* **Interpretability with SHAP:** Utilizes **SHAP Tree Explainer** to reveal the key features driving HOMO and LUMO energy predictions, offering transparent insights into molecular contributions.
+* **HOMO-LUMO Gap Analysis:** Provides in-depth analysis demonstrating how specific molecular frameworks and functional groups impact critical electronic properties.
 
-Feature selection was performed using the **SelectKBest** algorithm with **mutual information regression** to identify the most relevant descriptors.
+![HLP-Stack Architecture](/media/omid/HDD2/Manuscript/Word_format/Figures/Main_Architecture.png)
 
-To interpret feature importance, we used **SHAP Tree Explainer**, revealing key molecular features that significantly influence HOMO and LUMO energy levels.
-
-Finally, our **HOMO-LUMO gap analysis** demonstrated how molecular frameworks and functional groups impact electronic properties.
+---
 
 ## Repository Structure
 
 HLP-Stack/
+├── notebooks/          # Jupyter notebooks for analysis and model development
+├── models/             # Saved machine learning models (.pkl files)
+├── figures/            # Visualizations and project-related images
+├── data/               # Raw and processed datasets (.csv files)
+├── environment.yml     # Conda environment configuration for reproducibility
+└── README.md           # Project overview and documentation
 
-├── notebooks/ # Jupyter notebooks
 
-├── models/ # Saved ML models (.pkl)
-
-├── figures/ # Visualization images
-
-├── data/ # Input and processed datasets (.csv)
-
-├── environment.yml # Reproducible environment
-
-└── README.md # Project overview
+---
 
 ## Installation
 
-1. Clone the repository:
+Getting started with HLP-Stack is straightforward:
 
-git clone https://github.com/college-of-pharmacy-gachon-university/HLP-Stack.git
+1.  **Clone the repository:**
 
-cd HLP-Stack
+    ```bash
+    git clone [https://github.com/college-of-pharmacy-gachon-university/HLP-Stack.git](https://github.com/college-of-pharmacy-gachon-university/HLP-Stack.git)
+    cd HLP-Stack
+    ```
 
-2. Create and activate the conda environment:
+2.  **Create and activate the Conda environment:**
 
-conda env create -f environment.yml
+    ```bash
+    conda env create -f environment.yml
+    conda activate hlp-stack
+    ```
 
-conda activate hlp-stack
+3.  **Launch JupyterLab:**
 
-3. Launch JupyterLab
+    ```bash
+    jupyter lab
+    ```
 
