@@ -18,7 +18,7 @@ Welcome to **HLP-Stack (HOMO-LUMO Predictor via Stacking)**, a cutting-edge stac
 ---
 
 ## Repository Structure
-
+```
 HLP-Stack/
 ├── notebooks/          # Jupyter notebooks for analysis and model development
 ├── models/             # Saved machine learning models (.pkl files)
@@ -26,7 +26,7 @@ HLP-Stack/
 ├── data/               # Raw and processed datasets (.csv files)
 ├── environment.yml     # Conda environment configuration for reproducibility
 └── README.md           # Project overview and documentation
-
+```
 
 ---
 
