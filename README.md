@@ -3,6 +3,9 @@
 ---
 ![HLP-Stack Architecture](figures/Main_Architecture.png)
 
+MAHMOUDI, Omid; KIM, Mi-hyun. Predicting electronic properties of molecules: a stacking ensemble model for HOMO and LUMO energy estimation. RSC advances, 2026, 16.14: 12444-12457.
+https://doi.org/10.1039/D5RA08007J
+
 ### A Stacking Ensemble Model for HOMO and LUMO Energy Estimation
 
 Welcome to **HLP-Stack (HOMO-LUMO Predictor via Stacking)**, a cutting-edge stacking ensemble machine learning regressor designed to predict HOMO and LUMO energy values. Our model leverages diverse molecular descriptors from the QM9 dataset to achieve superior predictive accuracy.
